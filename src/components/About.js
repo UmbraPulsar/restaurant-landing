@@ -8,7 +8,7 @@ const About = () => {
 	const { pretitle, title, subtitle, btnText, image } = aboutData;
 
 	return (
-		<section className='min-h-[620px] bg-white'>
+		<section className='min-h-[620px] bg-white overflow-hidden'>
 			<div className='container min-h-[620px] mx-auto'>
 				<motion.div
 					variants={staggerContainer}
