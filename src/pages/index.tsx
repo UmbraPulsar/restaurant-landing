@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Menu from '../components/Menu';
+import Team from '../components/Team';
+import Testimonial from '../components/Testimonial';
 export default function Home() {
 	return (
 		<>
@@ -23,6 +25,8 @@ export default function Home() {
 				<Hero />
 				<About />
 				<Menu />
+				<Team />
+				<Testimonial />
 			</main>
 			<footer></footer>
 		</>

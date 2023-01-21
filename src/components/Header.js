@@ -92,7 +92,7 @@ const Header = () => {
 					<motion.div variants={fadeIn('down', 'tween', 1.4, 1.2)}>
 						<Link href='/'>
 							<div
-								className={`relative max-w-fit ${
+								className={`relative max-w-fit lg:ml-32 ${
 									isActive
 										? 'min-w-[90px] min-h-[90px]'
 										: 'min-w-[107px] min-h-[107px]'
